@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baba70 Collection'S</title>
+    <link rel="stylesheet" href="bro70.css">
+</head>
+
+<body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="cart.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+        <header class="hero">
+            <h2>Welcome to Our Store</h2>
+            <p>Best products at the best prices</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </header>
+
+    <section class="section">
+        <div class="Arrival">
+            <h1>New Arrivals</h1>
+        </div>
+        <div class="item-container">
+            <div class="web"><img src="web1.jpg" height="300">
+                <h3> product </h3>
+                <P>$25</P>
+                <button onclick="addToCart('product 2',25)">Add to cart</button>
+            </div>
+            <div class="web"> <img src="web2.jpg" height="300">
+                <h3> product </h3>
+                <P>$25</P>
+                <button onclick="addToCart('product 2',25)">Add to cart</button>
+            </div>
+            <div class="web"> <img src="web3.jpg" height="300">
+                <h3> product </h3>
+                <P>$25</P>
+                <button onclick="addToCart('product 2',25)">Add to cart</button>
+            </div>
+            <div class="web"><img src="web4.jpg" height="300">
+                <h3> product </h3>
+                <P>$25</P>
+                <button onclick="addToCart('product 2',25)">Add to cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="precious">
+        <h1 class="lala">COLLECTION</h1>
+        <a href="#View" class="collection">
+            <h2>VIEW</h2>
+        </a>
+    </section>
+
+    <section id="features" class="features-section">
+
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Modern Web Design. All right reserved.</p>
+    </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
